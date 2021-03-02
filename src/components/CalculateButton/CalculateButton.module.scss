@@ -1,0 +1,22 @@
+.calculateButton {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: white;
+  border: 1px solid black;
+  box-shadow: 0px 8px 16px 8px rgba(0, 0, 0, 0.4),
+    inset 0px 8px 0px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  top: calc(50% - 50px);
+  left: calc(50% - 50px);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  span {
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+  }
+}
